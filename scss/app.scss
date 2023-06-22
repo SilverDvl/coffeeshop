@@ -16,7 +16,7 @@
   font-family: "Bookean";
   font-style: normal;
   font-weight: 400;
-  src: url('/coffeeshop1/Bookean-Regular.ttf');
+  src: url('/coffeeshop1/Bookean-Regular.ttf') format("truetype");
   src: local("Bookean"),
   url("../coffeeshop1/Bookean-Regular.woff2") format("woff2"),
   url("../coffeeshop1/Bookean-Regular.woff") format("woff");
@@ -26,7 +26,7 @@
   font-family: "Lack";
   font-style: normal;
   font-weight: 400;
-  src: url("../coffeeshop1//Lack-Regular.ttf");
+  src: url("../coffeeshop1//Lack-Regular.ttf") format("truetype");
   src: local("Lack"),
   url("../coffeeshop1/Lack-Regular.woff2") format("woff2"),
   url("../coffeeshop1//Lack-Regular.woff") format("woff");
