@@ -16,20 +16,20 @@
   font-family: "Bookean";
   font-style: normal;
   font-weight: 400;
-  src: url('../Bookean-Regular.ttf');
+  src: url('/coffeeshop1/Bookean-Regular.ttf');
   src: local("Bookean"),
-  url("../Bookean-Regular.woff2") format("woff2"),
-  url("../Bookean-Regular.woff") format("woff");
+  url("../coffeeshop1/Bookean-Regular.woff2") format("woff2"),
+  url("../coffeeshop1/Bookean-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Lack";
   font-style: normal;
   font-weight: 400;
-  src: url("../Lack-Regular.ttf");
+  src: url("../coffeeshop1//Lack-Regular.ttf");
   src: local("Lack"),
-  url("../Lack-Regular.woff2") format("woff2"),
-  url("../Lack-Regular.woff") format("woff");
+  url("../coffeeshop1/Lack-Regular.woff2") format("woff2"),
+  url("../coffeeshop1//Lack-Regular.woff") format("woff");
 }
 
 a {
