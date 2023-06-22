@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+  <link rel="stylesheet" href="../style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"/>
+</head>
+<body>
+<div class="header">
+  <div class="header__menu mt-0">
+    <div class="header__link"><a href="../index.html">Главная</a></div>
+    <div class="header__link"><a href="../pages/about.html">О нас</a></div>
+    <div class="header__link"><a href="../pages/product.html">Магазин</a></div>
+    <div class="header__link"><a href="../pages/contact.html">Контакты</a></div>
+  </div>
+</div>
+<div class="container__body">
+  <div class="caption">
+    <div class="caption__name">Контакты</div>
+  </div>
+  <div class="contact">Контакты для связи</div>
+  <div class="info">
+    <div class="telephone">
+      <div class="telephone__info">Телефон для уточнения статуса заказа:</div>
+      <div class="telephone__number"><a href="#">+7(915)-210-34-66</a></div>
+    </div>
+    <div class="hours">
+      <div class="hours__text">Мы работаем по будням и выходным <br> с 9:00 до 18:00</div>
+      <div class="hours__paw">
+        <img src="../img/paw.svg" alt="paw">
+      </div>
+    </div>
+  </div>
+  <div class="delivery">
+    <div class="delivery__name">Способы доставки и оплаты</div>
+  </div>
+  <div class="payment">
+    <div class="payment__info">
+      <div class="delivery__info">
+        <div class="text">Вы можете выбрать любую службу доставки на выбор,
+          а также ознакомиться с их правилами и сроками доставки</div>
+      </div>
+      <select name="delivery" id="Delivery-selection">
+        <option value="--Выберете доставку">--Выберете доставку</option>
+        <option value="DPD">DPD</option>
+        <option value="DHL">DHL</option>
+        <option value="СДЭК">СДЭК</option>
+        <option value="Boxberry">Boxberry</option>
+        <option value="Почта России">Почта России</option>
+      </select>
+    </div>
+    <div class="checkout">
+      <form class="form" autocomplete="off" novalidate>
+        <fieldset>
+          <label for="card-number">Card Number</label>
+          <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
+          <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
+          <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
+          <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+        </fieldset>
+        <fieldset>
+          <label for="card-holder">Card holder</label>
+          <input type="text" id="card-holder" />
+        </fieldset>
+        <fieldset class="fieldset-expiration">
+          <label for="card-expiration-month">Expiration date</label>
+          <div class="select">
+            <select id="card-expiration-month">
+              <option></option>
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+          </div>
+          <div class="select">
+            <select id="card-expiration-year">
+              <option></option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset class="fieldset-ccv">
+          <label for="card-ccv">CCV</label>
+          <input type="text" id="card-ccv" maxlength="3" />
+        </fieldset>
+        <button class="btn"><i class="fa fa-lock"></i> submit</button>
+      </form>
+    </div>
+  </div>
+  </div>
+<div class="footer">
+  <img src="../img/footer1.svg" alt="footer">
+</div>
+</body>
+</html>
