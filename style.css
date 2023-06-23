@@ -1013,6 +1013,13 @@ img {
   padding: 0 0 0 32px;
   color: white;
 }
+@media screen and (max-width: 400px) {
+  .error {
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+  }
+}
 
 :root {
   --main-font-size: 18px;
@@ -1025,15 +1032,15 @@ img {
 
 @font-face {
   font-family: "Bookean";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Bookean"), url("../coffeeshop/Bookean-Regular.woff2") format("woff2"), url("../coffeeshop/Bookean-Regular.woff") format("woff");
+  src: url("../coffeeshop/Bookean-Regular.ttf") format("truetype");
+  src: local("../Bookean-Regular"), url("../coffeeshop/Bookean-Regular.woff2") format("woff2"), url("../coffeeshop/Bookean-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Lack";
   font-style: normal;
   font-weight: 400;
-  src: local("Lack"), url("../coffeeshop/Lack-Regular.woff2") format("woff2"), url("../coffeeshop/Lack-Regular.woff") format("woff");
+  src: url("../coffeeshop/Lack-Regular.ttf") format("truetype");
+  src: local("../Lack-Regular"), url("../coffeeshop/Lack-Regular.woff2") format("woff2"), url("../coffeeshop/Lack-Regular.woff") format("woff");
 }
 a {
   text-decoration: none;
@@ -1048,6 +1055,26 @@ body {
   min-height: 100vh;
 }
 
+@media screen and (max-width: 800px) {
+  .container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
 .container__main {
   max-width: 1200px;
   margin: 0 auto;
@@ -1056,6 +1083,7 @@ body {
 @media screen and (max-width: 400px) {
   .container__main {
     padding-top: 150px;
+    height: 66vh;
   }
 }
 .container__footer {
@@ -1111,6 +1139,13 @@ body {
     width: 70px;
     height: 70px;
     left: 354px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .circle__orange {
+    width: 56px;
+    height: 56px;
+    left: 299px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1174,6 +1209,11 @@ body {
 @media screen and (max-width: 590px) {
   .square {
     left: 185px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .square {
+    left: 140px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1325,6 +1365,11 @@ body {
   .coffee-bag img {
     width: 225px;
     height: 118px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .coffee-bag img {
+    height: 100px;
   }
 }
 @media screen and (max-width: 400px) {
