@@ -1070,9 +1070,9 @@ body {
     width: 500px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .container {
-    width: 400px;
+    width: 410px;
   }
 }
 .container__main {
